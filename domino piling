@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+	int n1,n2,pro;
+	cin>>n1;
+	cin>>n2;
+pro=n1*n2;
+int maxnum=pro/2;
+cout<<maxnum;
+
+
+    return 0;
+}
