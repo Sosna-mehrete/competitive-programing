@@ -1,0 +1,23 @@
+int r;
+int select(int arr[], int i)
+{
+  return arr[r]; // code here such that selecionSort() sorts arr[]
+}
+
+
+void selectionSort(int arr[], int n)
+{
+ int min,temp;
+ for( r=0;r<=n-2; r++){
+     min=r;
+ 
+ for(int j=r+1;j<=n-1; j++)
+  if(arr[j]<arr[min])
+  min=j;
+  if(min != r){
+    temp=arr[r]  ;
+    arr[r]=arr[min];
+    arr[min]=temp;
+      
+  }}
+}
